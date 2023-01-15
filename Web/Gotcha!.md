@@ -11,7 +11,6 @@ Made by 1unaram, smart_kang
 ```python
 import requests
 from bs4 import BeautifulSoup
-# from os import system
 
 s = requests.Session()
 url = "http://web.isangxcaution.xyz:20118/"
@@ -27,11 +26,8 @@ _data = {
     "uvalue": ans
 }
 
-# cmd = f'curl -d "uvalue={ans}" -X POST {url}result.php'
-# system(cmd)
 response = s.post(url + 'result.php', data=_data)
 response2 = s.get(url + 'index.php')
-# print(response2.text)
 print(response.text)
 ```
 다음과 같이 ex code를 작성해서 풀었다.
