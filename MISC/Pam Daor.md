@@ -10,3 +10,9 @@ Made by 1unaram
 네이버 지도를 이용해서 해결했다.
 
 [내가찜한닭 중앙대점](https://map.naver.com/v5/search/%EB%82%B4%EA%B0%80%EC%B0%9C%ED%95%9C%EB%8B%AD%20%EC%A4%91%EC%95%99%EB%8C%80%EC%A0%90?c=15,0,0,0,dh)
+
+(2022년 07월)<br>
+<img width="504" alt="스크린샷 2023-01-15 오후 3 26 07" src="https://user-images.githubusercontent.com/122713759/212526273-92457236-2ef3-4a0a-9adb-7e525db658b9.png">
+
+(2014년 10월)<br>
+<img width="471" alt="스크린샷 2023-01-15 오후 3 26 54" src="https://user-images.githubusercontent.com/122713759/212526313-71d61187-20d5-46d8-b9e0-dcf45ab40498.png">
