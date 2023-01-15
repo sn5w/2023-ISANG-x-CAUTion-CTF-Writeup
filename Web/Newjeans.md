@@ -27,8 +27,8 @@ def index():
 app.run(host='0.0.0.0', port=8282)
 ```
 
-Cookie name: cookie
-Cookie value: Yammy
+Cookie name: cookie <br>
+Cookie value: Yammy <br>
 로 설정하면 FLAG를 return 해준다.
 
 ```html
