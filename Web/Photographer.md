@@ -52,7 +52,7 @@ def thumbnailTemplate(thumbnail,camera_info,tags):
 
     return render_template_string(template,tags=tags)
 ```
-LFI에는 위 소스 코드에서 camera_info 부분을 이용했다.
+위 소스 코드에서 camera_info 부분을 이용했다.
 ```python
         if 'Image Make' in tags.keys() and 'Image Model' in tags.keys():
             camera_info = str(tags['Image Make']) + ' ' + str(tags['Image Model'])
@@ -64,4 +64,4 @@ camera_info 의 값은 Make와 Model Tag로 이루어져있기때문에 삽입�
         img = io.BytesIO(b_img)
 ```
 
-자세한 Flask LFI에 대해서는 [해당 문서 참조](https://payatu.com/blog/understanding-ssti/)
+자세한 Flask LFI 방법에 대해서는 [해당 문서 참조](https://payatu.com/blog/understanding-ssti/)
