@@ -7,6 +7,9 @@ ex) IxC{GS25}
 
 Made by 1unaram
 
+Writeup
+--
+
 네이버 지도를 이용해서 해결했다.
 
 [내가찜한닭 중앙대점](https://map.naver.com/v5/search/%EB%82%B4%EA%B0%80%EC%B0%9C%ED%95%9C%EB%8B%AD%20%EC%A4%91%EC%95%99%EB%8C%80%EC%A0%90?c=15,0,0,0,dh)
