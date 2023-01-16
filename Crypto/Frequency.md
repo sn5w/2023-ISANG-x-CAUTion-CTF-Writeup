@@ -9,3 +9,5 @@ Writeup
 As the code-breaker sat at his desk staring at the complex substitution cipher in front of him, his mind raced with various methods of attack, from frequency analysis to trying out all possible keys, he knew it was going to be a long and arduous process, but with determination and patience he knew he could crack the code and uncover the hidden message within. IxC{make_the_prob_was_mooore_harder}
   
 로 해독된다.
+
+정확한 기법은 모르겠다.. [참조](https://quipqiup.com/)
