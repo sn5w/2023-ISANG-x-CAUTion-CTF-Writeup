@@ -10,4 +10,6 @@ Made by codeblue
 Writeup
 --
 Wireshark 로 패킷을 조사하다보면 sql injection을 통해 로그인한 HTTP Stream을 확인할 수 있었다. <br>
-범인이 마지막에 그림 파일을 다운로드 받았음을 확인할 수 있는데, 해당 그림 파일을 추출하여 확인해보면 flag가 적혀있다.
+범인이 마지막에 그림 파일을 다운로드 받았음을 확인할 수 있는데, 해당 그림 파일을 추출하여 확인해보면 QR code가 있고 해당 QR code를 스캔해보면 flag가 나온다.
+
+![518155694](https://user-images.githubusercontent.com/122713759/212667358-cd219d14-ef90-4dff-940d-b6f10cdef953.png)
