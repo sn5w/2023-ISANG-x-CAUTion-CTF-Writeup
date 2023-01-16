@@ -78,4 +78,28 @@ if __name__ == '__main__':
 Writeup
 --
 socket과 eval을 이용해 단순히 보내주는 계산식의 답을 구하여 50번 보내주면 flag를 return 해준다.
-해당 소스는 다음에 업로드 예정
+
+```python
+import socket
+import time
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_address = ('misc.isangxcaution.xyz', 33002)
+sock.connect(server_address)
+
+
+for i in range(51):
+    recvdata = sock.recv(4096)
+    print(recvdata.decode())
+    eq = recvdata.decode()[:-3]
+    print(eq, end=' = ')
+    ans = eval(eq)
+    sock.send((str(int(ans)) + '\n').encode('utf-8'))
+    print(int(ans))
+    time.sleep(0.1)
+
+recvdata = sock.recv(4096)
+print (recvdata.decode())
+sock.close()
+exit()
+```
