@@ -1,4 +1,4 @@
-rockgame
+# rockgame
 
 혹시 가위바위보 알아요? 제가 요즘 푸욱~ 빠진 게임이에요!! 저 좀 알려주세요!!
 
@@ -82,7 +82,8 @@ int main(int argc, char *argv[])
     return 0;
 }
 ```
-
+Wirteup
+--
 가위바위로 도박하는 게임.<br>
 사실상 그냥 무작위로 해도 이길 수 있는 게임이다...<br>
 정석으로 풀려면 코드보고 batMoney % 3에 대해 계산해서 풀어도 된다.<br>
